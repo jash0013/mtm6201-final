@@ -1,0 +1,55 @@
+body{
+    background-color: black;
+}
+
+/* styles.css */
+
+/* Example of custom styles */
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    background-color: #f8f9fa;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    color: #343a40;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Custom variables */
+:root {
+    --primary-color: #007bff;
+    --hover-color: #0056b3;
+}
+
+/* Basic styles */
+body {
+    background-color: #f8f9fa;
+}
+
+/* Animation class for button */
+.animated-btn {
+    transition: all 0.3s ease-in-out;
+    display: inline-block;
+}
+
+/* Hover effect */
+.animated-btn:hover {
+    background-color: var(--hover-color);
+    transform: scale(1.1);
+}
+
+/* Focus effect */
+.animated-btn:focus {
+    outline: none;
+    box-shadow: 0 0 5px var(--hover-color);
+}
+
